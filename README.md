@@ -1,13 +1,13 @@
 # StoreListingAssignment
-##1) Architecture and packaging
+### 1) Architecture and packaging
 	- Usage of RecyclerView and CardView
 	- A standard packaging is implemented (even though many packages are empty)
 
-##2) API Calls & Parsing of response:
+### 2) API Calls & Parsing of response:
 	- Usage of Retrofit
 	- Gson for response parsing
 
-##3) Libraries Used:
+### 3) Libraries Used:
 	- Retorfit
 	- OkHttp
 	- Universal Image Loader
@@ -18,14 +18,14 @@
 	- Design Support Library
 	- CardView | RecyclerView
 
-##4) Code Logic:
+### 4) Code Logic:
 	- On making the rest api call we store the parsed data in an arraylist (Ganerated by Retrofit)
 	- An array list of models (NearByStoreModel) is created from the above generated parser arraylist
 	- Only the necessary data is ported to the ModelArrayList 
 	- ModelArrayList intereacts with the adapter class and necessary information is provided to the listView (RecyclerView)
 
 
-##5) App Working:
+### 5) App Working:
 	- Permissions for Internet and Access network state is used
 	- Permission for Location is used to get your current location
 	- Location listener is invoked to get your perfect location (LatLng)
